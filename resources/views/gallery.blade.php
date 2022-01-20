@@ -156,7 +156,7 @@
         <div class="hero-body">
             <div class="container has-text-centered">
                 <p class="title">
-                    Gellery
+                    Gallery
                 </p>
             </div>
         </div>
