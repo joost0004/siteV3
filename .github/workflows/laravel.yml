@@ -33,3 +33,10 @@ jobs:
         DB_CONNECTION: sqlite
         DB_DATABASE: database/database.sqlite
       run: vendor/bin/phpunit
+      
+    - name: Setup Node.js environment
+      uses: actions/setup-node@v2.5.1
+    - name: install dependencies and compile sass
+      run: |
+        npm install
+        npm css-build
