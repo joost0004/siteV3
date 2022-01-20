@@ -39,4 +39,4 @@ jobs:
     - name: install dependencies and compile sass
       run: |
         npm install
-        npm css-build
+        npm run css-build
