@@ -20,7 +20,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Copy .env
       run: php -r "file_exists('.env') || copy('.env.example', '.env');"
-    - name: Install Dependencies
+    - name: Install Composer Dependencies
       run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
     - name: Generate key
       run: php artisan key:generate
@@ -38,7 +38,7 @@ jobs:
       
     - name: Setup Node.js environment
       uses: actions/setup-node@v2.5.1
-    - name: install dependencies and compile sass
+    - name: Install NPM dependencies and compile SASS
       run: |
         npm install
         npm run css-build
