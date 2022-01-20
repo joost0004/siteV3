@@ -52,7 +52,7 @@ jobs:
     - name: Deploy to Heroku
       uses: AkhileshNS/heroku-deploy@v3.12.12
       with:
-        heroku_api_key: 5abe7cd6-928f-47f1-aacf-a58a733d5658
+        heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
         heroku_app_name: "ci-cd-testingjoost0004"
         heroku_email: "joostb.photo@gmail.com"
         
