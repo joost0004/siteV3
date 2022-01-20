@@ -36,6 +36,9 @@
                             <a class="navbar-item">
                                 Contact
                             </a>
+                            <a class="navbar-item" href="/gallery">
+                                Gallery
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -120,7 +123,7 @@
         <section class="section is-small"></section>
 
         <section class="section pt-0 is-relative">
-            <img class="is-hidden-touch image is-fullwidth" style="position: absolute; top; 0; bottom: 0; left: 0; object-fit: cover; height: 100%; width: 50%;" src="/img/me.jpg" alt="">
+            <img class="is-hidden-touch image is-fullwidth" style="position: absolute; top; 0; bottom: 0; left: 0; object-fit: cover; height: 100%; width: 50%;" src="/img/gallery/untitled-1.jpg" alt="">
             <div class="is-relative">
               <div class="container">
                 <div class="pt-5 columns is-multiline">
