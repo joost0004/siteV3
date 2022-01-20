@@ -171,27 +171,45 @@
     <div class="slideshow-container">
 
         <div class="mySlides fade">
-            <div class="numbertext">1 / 4</div>
+            <div class="numbertext">1 / 7</div>
             <img src="/img/gallery/Untitled-1.jpg" style="width:100%">
             <div class="text">Hout</div>
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">2 / 4</div>
+            <div class="numbertext">2 / 7</div>
             <img src="/img/gallery/Untitled-2.jpg" style="width:100%">
             <div class="text">Toren</div>
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">3 / 4</div>
+            <div class="numbertext">3 / 7</div>
             <img src="/img/gallery/Untitled-3.jpg" style="width:100%">
             <div class="text">Cute</div>
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">4 / 4</div>
+            <div class="numbertext">4 / 7</div>
             <img src="/img/gallery/Untitled-4.jpg" style="width:100%">
             <div class="text">Beeld</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 7</div>
+            <img src="/img/gallery/Untitled-5.jpg" style="width:100%">
+            <div class="text">Surfin</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 7</div>
+            <img src="/img/gallery/Untitled-6.jpg" style="width:100%">
+            <div class="text">Zee</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">7 / 7</div>
+            <img src="/img/gallery/Untitled-7.jpg" style="width:100%">
+            <div class="text">Zout</div>
         </div>
 
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -199,13 +217,6 @@
 
     </div>
     <br>
-
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-    </div>
 
     <section class="hero is-medium">
         <div class="hero-body">
