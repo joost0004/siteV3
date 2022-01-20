@@ -5,6 +5,8 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+  schedule:
+    [cron: "* 5 * * 0"]
 
 jobs:
   laravel-tests:
@@ -40,3 +42,19 @@ jobs:
       run: |
         npm install
         npm run css-build
+        
+  heroku-deploy:
+    needs: laravel-tests
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Deploy to Heroku
+      uses: AkhileshNS/heroku-deploy@v3.12.12
+      with:
+        heroku_api_key: 5abe7cd6-928f-47f1-aacf-a58a733d5658
+        heroku_app_name: "ci-cd-testingjoost0004"
+        heroku_email: "joostb.photo@gmail.com"
+        
+        
+
