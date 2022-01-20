@@ -18,6 +18,6 @@ use Illuminate\Support\Facades\Route;
 // });
 
 // Home page route
-Route::get('/', function () {
+Route::get('/5', function () {
     return view('home');
 });
